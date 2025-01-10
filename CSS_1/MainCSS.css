@@ -81,6 +81,7 @@
         }
     .innerfooter{
             display: flex;
+            flex-direction: row;
         
         }
     .left-pannel-index{
