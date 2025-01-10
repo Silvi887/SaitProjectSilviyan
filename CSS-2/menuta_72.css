@@ -1,0 +1,42 @@
+/* .menu {
+position:relative;
+width: 880px;
+height: 40px;
+float: left;
+padding:0;
+}
+.mymenu{
+margin: 0;
+padding: 0;
+float:  left;
+height: 40px;
+font: bold 16px Arial;
+width: 880px;
+overflow: hidden;
+
+border: 1px solid #FF9933;
+border-width: 1px 0;
+background: black url(menu2.gif) center center repeat-x;
+} */
+
+.mymenu li{
+display: inline;
+}
+
+.mymenu li a{
+float: left;
+color: #CC3300;
+padding: 9px 11px;
+text-decoration: none;
+border-right: 1px solid white;
+}
+
+.mymenu li a:visited{
+color: #CC3300;
+}
+
+.mymenu li a:hover, .mymenu li .current{
+color: #FF6633;
+height:40px;
+background: transparent url(menu3.gif) center center repeat-x;
+}
