@@ -75,12 +75,12 @@
             .innerfooter{
              padding-left: 30px;
              min-width: 200px;
-             display: flex;            
+             display: flex;
+             flex-direction: column;
             }
         }
     .innerfooter{
             display: flex;
-            flex-direction: row;
         
         }
     .left-pannel-index{
