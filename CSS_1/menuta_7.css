@@ -24,14 +24,19 @@ background: black url(menu2.gif) center center repeat-x;
 
 @media (max-width:600px) {
     #menu{
-    width:auto;
-    
+    width:600px;   
     }
+}
+
+@media only screen and(max-width:600px) {
+    body{
+    background: #FFFF66;
+    }   
 }
 
 @media (max-width:400px) {
     #menu{
-    width:auto;
+    width:600px;
     
     }
 }
@@ -39,7 +44,7 @@ background: black url(menu2.gif) center center repeat-x;
 
 @media only screen and(max-width:600px) {
     .mymenu{
-    width:auto;
+    width:600px;
     }
 } 
 
