@@ -1,17 +1,19 @@
-.menu {
+#menu {
 position:relative;
 width: 1300px;
 height: 40px;
 float: left;
 padding:0;
+max-width:1300px; 
 }
 .mymenu{
+/* position: absolute; */
 margin: 0;
 padding: 0;
 float:  left;
 height: 40px;
 font: bold 16px Arial;
-width:1300px; 
+max-width:1300px; 
 overflow: hidden;
 
 border: 1px solid #FF9933;
@@ -20,24 +22,24 @@ background: black url(menu2.gif) center center repeat-x;
 }
 
 
-@media only screen and(max-width:600px) {
-    .menu{
-    width:600px;
+@media (max-width:600px) {
+    #menu{
+    width:auto;
     
     }
 }
 
-@media only screen and(min-width:1300px) {
-    .menu{
-    width:1300px;
-    max-width: 1300px;
+@media (max-width:400px) {
+    #menu{
+    width:auto;
+    
     }
 }
 
 
 @media only screen and(max-width:600px) {
     .mymenu{
-    width:600x;
+    width:auto;
     }
 } 
 
